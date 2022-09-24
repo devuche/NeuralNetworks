@@ -1,0 +1,70 @@
+{"intents": [
+  {"tag": "greetings",
+    "patterns": ["hello", "hey","hi","good day","Greetings","what's up","how is it going","how far","What is your name"],
+    "responses": ["Hi! I am a Mr Hill the fix it guy for UMIS portal", "I am Mr Hill, here to help with problems you may have navigating through UMIS after logging in as a student", "I am Mr Hill, what can I do for you pertaining to your UMIS registration process as a student?"]
+  },
+  {"tag": "goodbye",
+    "patterns": ["cya", "see you later","I am Leaving","Have a good day","bye","ciao","see ya later alligator","Have a great day"],
+    "responses": ["Goodbye", "Bye!", "Happy to be of help"]
+  },
+  {"tag": "gratitude",
+    "patterns": ["thanks", "thank you","I appreciate","thanks for your help","I am grateful","Arigato","You have been a great help","You are the best", "Thank you very much"],
+    "responses": ["You are most welcome", "Happy I could be of help", "You can come back again whenever you need help"]
+  },
+  {"tag": "registration",
+    "patterns": ["I want to register", "How do I register","How do I begin registration","commence registration","begin registration","start registration"],
+    "responses": ["Click on three dashes at the top right section of your screen then go to course selection after logging in and select commence registration"]
+  },
+  {"tag": "payment",
+    "patterns": ["How do I pay my fees", "How can I make payment","How do I pay","I am having difficulty paying my fees","I am having difficulty paying","I can not pay", "How can I pay my fees","How do I pay my fees","Where can I pay my fees"],
+    "responses": ["After selecting hall of residence, meal type, worship center and courses. Select finance,then current charges and click the green arrow button."]
+  },
+  {"tag": "hall",
+    "patterns": ["I could not select the hall I wanted", "I need to select a hall","I need to select a hostel","can you help me pick a hall of residence","I cannot select my hall of residence","I cannot pick a hostel","I have a problem selecting a hostel", "I have a problem picking a hostel"],
+    "responses": ["The residence you have picked might either be reserved for a particular level or is full. Please select another one"]
+  },
+  {"tag": "worship center",
+    "patterns": ["I could not select the worship center I wanted", "I need to select a worship center","I need to select a church","can you help me pick a worship center","I cannot select my church","I cannot pick a worship center","I have a problem selecting worship center", "I have a problem picking a church"],
+    "responses": ["Go to select worship centre under commence registration","The worship center you have picked is full. Please select other ones till you find a worship center that is not full"]
+  },
+  {"tag": "Meal",
+    "patterns": ["I could not select a meal type","How do I select a meal type","I need to select a meal type","I need to select a meal option","I need to pick a meal option","How do I pick a meal option"],
+    "responses": ["Go to course selection and click select meal type to choose meal option"]
+  },
+  {"tag": "Problem",
+    "patterns": ["I have a problem","Can you help me with my problem"],
+    "responses": ["Of course, you can tell me anything","Anything for a friend, what do you need?"]
+  },
+  {"tag": "Submit",
+    "patterns": ["How do I submit registration","How can I submit registration","How do I finish registration"],
+    "responses": ["After selecting courses, meals, hall of residence and worship center. Make payment and wait for financial approval. Payment can only be approved if fees are completely paid"]
+  },
+  {"tag": "course selection",
+    "patterns": ["How do I select courses","How can I select my course", "I can not find my course","How can I find my course"],
+    "responses": ["Click course selection and select special selection from the list.For departmental courses, select your department name and browse through the list of courses. For GEDS courses, select general study division. To view selected courses click selected course list in course selection"]
+  },
+  {"tag": "result",
+    "patterns": ["How can I check my result","result","how can I view my result","how can I view my semester result", "how can I see my result"],
+    "responses": ["Click on academic details after clicking the three dashes at the top right corner of your screen, then select semester result"]
+  },
+  {"tag": "transcript",
+    "patterns": ["How can I check my transcript","transcript","how can I view my transcript","how can I view my full transcript", "how can I see my transcript"],
+    "responses": ["Click on academic details after clicking the three dashes at the top right corner of your screen, then select unofficial transcript "]
+  },
+  {"tag": "course form",
+    "patterns": ["How can I submit course form","course form","how can I view course form","how can I see my course form"],
+    "responses": ["To submit course form, click on the three dashes at the top right of your screen, select course selection then click submit course form. To view and print course form, click on finance and select print course form"]
+  },
+  {"tag": "previous",
+    "patterns": ["How can I register previous semester","previous semester","how can I pay for previous semester"],
+    "responses": ["To register previous semester, click the three dashes at the top of your screen, select Finance and then click register previous semester"]
+  },
+  {"tag": "School",
+    "patterns": ["How can I see school info","school info","how can I view school info","how can I see my school info"],
+    "responses": ["To view school, click on the three dashes at the top right of your screen, select school then click name of your assigned school"]
+  },
+  {"tag": "details",
+    "patterns": ["How can I see my student details","student details","how can I view student details"],
+    "responses": ["To view your details, click on the three dashes at the top right of your screen then select student details"]
+  }
+]}
